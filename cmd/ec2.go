@@ -9,10 +9,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func init() {
-	RootCmd.AddCommand(addCmd)
-}
-
 // initialize Command
 var addCmd = &cobra.Command{
 	Use:     "ec2 [command name]",
@@ -51,3 +47,6 @@ Example: cobra add server  -> resulting in a new cmd/server.go
 	},
 }
 
+func init() {
+	RootCmd.AddCommand(addCmd)
+}

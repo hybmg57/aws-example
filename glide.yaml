@@ -8,3 +8,6 @@ import:
   - service/ec2
 - package: github.com/spf13/cobra
 - package: github.com/spf13/viper
+- package: github.com/hybmg57/aws-example
+  subpackages:
+  - cmd

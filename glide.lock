@@ -1,5 +1,5 @@
-hash: 06e76e09fb4312b9a18be423ab3aa20a72cd3d3a6bec2902c11d5443931650e8
-updated: 2017-04-26T02:08:06.892461438+10:00
+hash: 68c95d787e5b85a7c95d9a95058301efe44f8de08596b11a729ecb0471a11ca6
+updated: 2017-04-26T02:18:11.785562523+10:00
 imports:
 - name: github.com/aws/aws-sdk-go
   version: f6ea558f30e0a983d529b32c741e4caed17c7df0
@@ -45,6 +45,10 @@ imports:
   - json/parser
   - json/scanner
   - json/token
+- name: github.com/hybmg57/aws-example
+  version: 06019ee1033ab436f1eb3ba7ed09b14c0ea416e3
+  subpackages:
+  - cmd
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
 - name: github.com/jmespath/go-jmespath
